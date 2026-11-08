@@ -1,0 +1,18 @@
+[
+  {
+    "model": "gemini-3.8-flash",
+    "repeat": 1,
+    "question": "LoRAとは何ですか？",
+    "exit_code": 1,
+    "output": "[model] gemini-3.8-flash\n[質問] LoRAとは何ですか？\n\nモデルが混み合っています（503）。少し待ってから再実行してください。\n",
+    "error": ""
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "repeat": 2,
+    "question": "LoRAとは何ですか？",
+    "exit_code": 124,
+    "output": "",
+    "error": "180秒でタイムアウト。3回目は実行せず、別モデルへ変更した。"
+  }
+]
